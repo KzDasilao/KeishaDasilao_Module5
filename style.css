@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Lobster&family=Satisfy&family=Sedgwick+Ave+Display&display=swap');
+*{
+    padding: 5px;
+    margin: 5px;
+} 
+.navbar{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(204, 169, 250);
+}
+#yt{
+    background-color: rgb(199, 68, 68);
+}
+#yt a{  
+    color: rgb(255, 255, 255);
+}
+#fb{
+    background-color: rgba(49, 61, 228, 0.747);
+}
+#fb a{
+    color: rgb(255, 255, 255);
+}
+#tiktok{
+    background-color: aqua;
+}
+#tiktok a{
+    color: rgb(238, 15, 15);
+}
+#github{
+    background-color: blueviolet;
+}
+#github a{
+    color: rgb(202, 145, 255);
+}
+#insta{
+    background-color: rgb(217, 132, 228);
+}
+#insta a{
+    color: rgb(85, 14, 126);
+}
+.links{
+    display: inline;
+    border: 1px solid black;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    transition: .4s;
+}
+.links:hover{
+  opacity: 1;
+  transition: .4s;
+  font-size: larger;
+  padding: 10px;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+#linksgroup{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+
+}
+
+.banner{
+    background-image: url('images/bp2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 590px;
+    text-transform: uppercase;
+}
+
+.bannertext{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+
+}
+
+.bannertext h2{
+    text-transform: uppercase;
+    color: deeppink;
+    font-size: 4em;
+
+}
+
+.bannertext h2 span{
+    color: rgb(252, 252, 252);
+}
+.bannertext p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 10, 206);
+
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(10, 3, 8);
+    margin-top: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
+}
